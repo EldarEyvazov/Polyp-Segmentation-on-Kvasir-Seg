@@ -26,47 +26,53 @@ This repository contains the implementation of the following models:
 ## Results
 We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
 
-<table>
-  <thead>
-    <tr style="background-color: #D3D3D3;">
-      <th>Model</th>
-      <th>Loss</th>
-      <th>IoU</th>
-      <th>Dice</th>
-      <th>Accuracy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>U-NET</td>
-      <td>0.1767</td>
-      <td>0.7042</td>
-      <td>0.8233</td>
-      <td>0.9480</td>
-    </tr>
-    <tr>
-      <td>ResUNet</td>
-      <td>0.3358</td>
-      <td>0.6536</td>
-      <td>0.7868</td>
-      <td>0.9382</td>
-    </tr>
-    <tr>
-      <td>Attention UNet (5L)</td>
-      <td>0.1508</td>
-      <td>0.7422</td>
-      <td>0.8492</td>
-      <td>0.9440</td>
-    </tr>
-    <tr>
-      <td>UNet++ w/ DS</td>
-      <td>0.2465</td>
-      <td>0.7624</td>
-      <td>0.8639</td>
-      <td>0.9489</td>
-    </tr>
-  </tbody>
-</table>
+## Results
+We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
+
+<div align="center">
+  <table>
+    <thead>
+      <tr style="background-color: #D3D3D3;">
+        <th>Model</th>
+        <th>Loss</th>
+        <th>IoU</th>
+        <th>Dice</th>
+        <th>Accuracy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>U-NET</td>
+        <td>0.1767</td>
+        <td>0.7042</td>
+        <td>0.8233</td>
+        <td>0.9480</td>
+      </tr>
+      <tr>
+        <td>ResUNet</td>
+        <td>0.3358</td>
+        <td>0.6536</td>
+        <td>0.7868</td>
+        <td>0.9382</td>
+      </tr>
+      <tr>
+        <td>Attention UNet (5L)</td>
+        <td>0.1508</td>
+        <td>0.7422</td>
+        <td>0.8492</td>
+        <td>0.9440</td>
+      </tr>
+      <tr>
+        <td>UNet++ w/ DS</td>
+        <td>0.2465</td>
+        <td>0.7624</td>
+        <td>0.8639</td>
+        <td>0.9489</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 
 The table above summarizes the performance metrics for each model. The baseline U-Net model provided a solid benchmark with decent accuracy and segmentation quality. ResUNet showed a lower performance, indicating some challenges in capturing complex features. Attention U-Net (5L) improved the segmentation results significantly by focusing on the most relevant features within the images, resulting in a higher IoU and Dice coefficient. UNet++ with deep supervision (DS) demonstrated the best performance across all metrics, showcasing the effectiveness of advanced architecture modifications.

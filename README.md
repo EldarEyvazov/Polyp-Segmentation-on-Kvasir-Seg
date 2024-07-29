@@ -24,11 +24,22 @@ This repository contains the implementation of the following models:
 - **UNet++**
 
 ## Results
-We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The results are summarized below:
+We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
 
+| Model               | Loss   | IoU    | Dice   | Accuracy |
+|---------------------|--------|--------|--------|----------|
+| U-NET               | 0.1767 | 0.7042 | 0.8233 | 0.9480   |
+| ResUNet             | 0.3358 | 0.6536 | 0.7868 | 0.9382   |
+| Attention UNet (5L) | 0.1508 | 0.7422 | 0.8492 | 0.9440   |
+| UNet++ w/ DS        | 0.2465 | 0.7624 | 0.8639 | 0.9489   |
 
-The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy. 
+The table above summarizes the performance metrics for each model. The baseline U-Net model provided a solid benchmark with decent accuracy and segmentation quality. ResUNet showed a lower performance, indicating some challenges in capturing complex features. Attention U-Net (5L) improved the segmentation results significantly by focusing on the most relevant features within the images, resulting in a higher IoU and Dice coefficient. UNet++ with deep supervision (DS) demonstrated the best performance across all metrics, showcasing the effectiveness of advanced architecture modifications.
 
-<img width="557" alt="image" src="https://github.com/user-attachments/assets/49ced31c-30ce-4999-b748-5fb1654e5fd9">
+### Sample Results
+Below are some sample results illustrating the segmentation performance of the different models. 
 
-
+<p align="center">
+  <img src="images/baseline_unet_results.png" alt="Baseline U-Net Results">
+  <img src="images/attention_unet_results.png" alt="Attention U-Net Results">
+  <img src="images/unetpp_results.png" alt="UNet++ Results">
+</p>

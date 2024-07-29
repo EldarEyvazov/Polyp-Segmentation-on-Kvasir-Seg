@@ -31,5 +31,4 @@ The comparative performance of these models was assessed using metrics such as D
 
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/49ced31c-30ce-4999-b748-5fb1654e5fd9">
 
-```markdown
-![Alt text](images/your_image_filename.png)
+

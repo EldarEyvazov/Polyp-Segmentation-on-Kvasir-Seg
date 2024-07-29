@@ -26,17 +26,10 @@ This repository contains the implementation of the following models:
 ## Results
 We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The results are summarized below:
 
-- **Baseline U-Net**: Served as our reference model, providing a benchmark for performance comparison.
-- **U-Net with Residual Blocks**: Improved segmentation accuracy by incorporating residual learning to enhance feature propagation.
-- **Attention U-Net**: Achieved higher precision by focusing on the most relevant features in the images, resulting in better polyp localization.
-- **UNet++**: Demonstrated superior performance due to its nested and dense skip connections, which improve feature fusion and gradient flow.
 
 The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy. 
 
-
-
-To add images to your README file, place your PNG files in an `images` directory within your repository and use the following syntax to include them:
-<img width="597" alt="image" src="https://github.com/user-attachments/assets/49ced31c-30ce-4999-b748-5fb1654e5fd9">
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/49ced31c-30ce-4999-b748-5fb1654e5fd9">
 
 ```markdown
 ![Alt text](images/your_image_filename.png)

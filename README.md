@@ -74,4 +74,13 @@ We evaluated the performance of various U-Net based models on the binary polyp s
 
 The table above summarizes the performance metrics for each model on the augmented dataset. The baseline U-Net model provided a solid benchmark. ResUNet showed lower performance, struggling with feature extraction. Attention U-Net (5L) significantly improved results, achieving higher IoU and Dice scores. UNet++ with deep supervision (DS) outperformed all models, demonstrating the best overall performance with a Dice coefficient of 0.8639 and the highest accuracy of 0.9489, making it our best model compared to the baseline U-Net. Our research found that the performance of every model on the augmented dataset was higher than on the original dataset.
 
-<img width="782" alt="image" src="https://github.com/user-attachments/assets/17b90a64-7dd5-4a14-9910-62d031390121">
+### Visual Results
+
+The images below illustrate the segmentation results for the original image, U-Net, and UNet++ models. The visual comparison shows how each model identifies and segments the polyps.
+
+<p align="center">
+  <img width="782" alt="image" src="https://github.com/user-attachments/assets/17b90a64-7dd5-4a14-9910-62d031390121">
+</p>
+
+The images depict the original input (left), U-Net segmentation (middle), and UNet++ segmentation (right). UNet++ shows improved segmentation quality, with more accurate and complete polyp boundaries compared to the baseline U-Net, further validating its superior performance metrics.
+

@@ -1,4 +1,4 @@
-# VASIR-SEG Polyp Segmentation Using U-Net Based Models
+# KVASIR-SEG Polyp Segmentation Using U-Net Based Models
 
 ## Project Overview
 This project focuses on semantic segmentation for the Vision and Cognitive Systems course at UNIPD. We built U-Net based models to analyze their performance on the binary polyp segmentation task. Our approach involved initially testing model performance on the original dataset, followed by training on an augmented dataset, to compare performance achievements effectively. 

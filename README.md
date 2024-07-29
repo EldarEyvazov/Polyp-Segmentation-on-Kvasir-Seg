@@ -36,6 +36,7 @@ The comparative performance of these models was assessed using metrics such as D
 
 
 To add images to your README file, place your PNG files in an `images` directory within your repository and use the following syntax to include them:
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/49ced31c-30ce-4999-b748-5fb1654e5fd9">
 
 ```markdown
 ![Alt text](images/your_image_filename.png)

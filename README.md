@@ -1,7 +1,7 @@
 # Polyp Segmentation Using U-Net Based Models on Kvasir-SEG dataset
 
 ## Project Overview
-This project focuses on semantic segmentation for the Vision and Cognitive Systems course at UNIPD. We built U-Net based models to analyze their performance on the binary polyp segmentation task. Our approach involved initially testing model performance on the original dataset, followed by training on an augmented dataset, to compare performance achievements effectively. 
+This project focuses on semantic segmentation on Kvasir-Seg dataset. We built U-Net based models to analyze their performance on the binary polyp segmentation task. Our approach involved initially testing model performance on the original dataset, followed by training on an augmented dataset, to compare performance achievements effectively. 
 
 We used U-Net as our baseline model and enhanced each model's architecture with advanced techniques such as residual blocks, attention mechanisms, and the relatively recent UNet++ architecture. This systematic approach allowed us to assess the impact of these enhancements on model performance in polyp segmentation.
 
@@ -125,3 +125,12 @@ The images depict the original input (left), U-Net segmentation (middle), and UN
 19. Zhou, Z., Siddiquee, M. R., Tajbakhsh, N., & Liang, J. (2018). UNet++: A Nested U-Net Architecture for Medical Image Segmentation. *arXiv preprint arXiv:1807.10165*. URL: [https://arxiv.org/abs/1807.10165](https://arxiv.org/abs/1807.10165).
 
 20. Buslaev, A., Iglovikov, V. I., Khvedchenya, E., Parinov, A., Druzhinin, M., & Kalinin, A. A. (2020). Albumentations: Fast and Flexible Image Augmentations. *Information*, 11(2), 125. doi: [10.3390/info11020125](https://doi.org/10.3390/info11020125). URL: [https://www.mdpi.com/2078-2489/11/2/125](https://www.mdpi.com/2078-2489/11/2/125).
+
+
+## Acknowledgments
+
+This project was completed as part of the Vision and Cognitive Systems course at UNIPD. I would like to extend my heartfelt gratitude to my colleague [@AntoniValls](https://github.com/AntonioValls), whose collaboration and contributions were invaluable throughout this project. Together, we worked diligently to explore and enhance the performance of U-Net based models for polyp segmentation.
+
+We are proud to share that our efforts and dedication have been recognized, as we achieved the highest grade for our project. This accomplishment reflects the depth of our research, the effectiveness of our methodologies, and the robustness of our results.
+
+

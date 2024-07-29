@@ -82,8 +82,6 @@ We evaluated the performance of various U-Net based models on the binary polyp s
 
 
 
-
-The table above summarizes the performance metrics for each model. The baseline U-Net model provided a solid benchmark with decent accuracy and segmentation quality. ResUNet showed a lower performance, indicating some challenges in capturing complex features. Attention U-Net (5L) improved the segmentation results significantly by focusing on the most relevant features within the images, resulting in a higher IoU and Dice coefficient. UNet++ with deep supervision (DS) demonstrated the best performance across all metrics, showcasing the effectiveness of advanced architecture modifications.
 ### Sample Results
 Below are some sample results illustrating the segmentation performance of the different models.
 
@@ -92,8 +90,7 @@ Below are some sample results illustrating the segmentation performance of the d
   <img src="images/attention_unet_results.png" alt="Attention U-Net Results">
   <img src="images/unetpp_results.png" alt="UNet++ Results">
 </p>
-
-The table above summarizes the performance metrics for each model. The baseline U-Net model provided a solid benchmark with decent accuracy and segmentation quality. ResUNet showed a lower performance, indicating some challenges in capturing complex features. Attention U-Net (5L) improved the segmentation results significantly by focusing on the most relevant features within the images, resulting in a higher IoU and Dice coefficient. UNet++ with deep supervision (DS) demonstrated the best performance across all metrics, showcasing the effectiveness of advanced architecture modifications.
+The table above summarizes the performance metrics for each model on the augmented dataset. The baseline U-Net model provided a solid benchmark. ResUNet showed lower performance, struggling with feature extraction. Attention U-Net (5L) significantly improved results, achieving higher IoU and Dice scores. UNet++ with deep supervision (DS) outperformed all models, demonstrating the best overall performance with a Dice coefficient of 0.8639 and the highest accuracy of 0.9489, making it our best model compared to the baseline U-Net. Our research found that the performance of every model on the augmented dataset was higher than on the original dataset.
 
 ### Sample Results
 Below are some sample results illustrating the segmentation performance of the different models. 

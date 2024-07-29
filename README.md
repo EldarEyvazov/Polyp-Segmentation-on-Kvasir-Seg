@@ -32,10 +32,13 @@ We evaluated the performance of various U-Net based models on the binary polyp s
 ## Results
 We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
 
+## Results
+We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
+
 <div align="center">
   <table style="border-collapse: collapse; width: 80%;">
     <thead>
-      <tr style="background-color: #f2f2f2;">
+      <tr style="background-color: #d3d3d3;">
         <th style="padding: 8px; border: 1px solid #ddd;">Model</th>
         <th style="padding: 8px; border: 1px solid #ddd;">Loss</th>
         <th style="padding: 8px; border: 1px solid #ddd;">IoU</th>
@@ -75,6 +78,7 @@ We evaluated the performance of various U-Net based models on the binary polyp s
     </tbody>
   </table>
 </div>
+
 
 
 

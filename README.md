@@ -8,7 +8,8 @@ The Kvasir-SEG dataset used in this project can be accessed [here](https://datas
 
 ## Models
 This repository contains the implementation of the following models:
+-**UNET**
+-**ResUNET**
 - **Attention UNet**
 - **UNet++**
 
-Additionally, the final project includes benchmark models such as U-Net and ResUNet, implemented by a colleague (code not included in this repository).

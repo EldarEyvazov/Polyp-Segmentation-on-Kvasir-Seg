@@ -29,49 +29,53 @@ We evaluated the performance of various U-Net based models on the binary polyp s
 ## Results
 We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
 
+## Results
+We evaluated the performance of various U-Net based models on the binary polyp segmentation task. The comparative performance of these models was assessed using metrics such as Dice Coefficient, Intersection over Union (IoU), and pixel accuracy.
+
 <div align="center">
-  <table>
+  <table style="border-collapse: collapse; width: 80%;">
     <thead>
-      <tr style="background-color: #D3D3D3;">
-        <th>Model</th>
-        <th>Loss</th>
-        <th>IoU</th>
-        <th>Dice</th>
-        <th>Accuracy</th>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 8px; border: 1px solid #ddd;">Model</th>
+        <th style="padding: 8px; border: 1px solid #ddd;">Loss</th>
+        <th style="padding: 8px; border: 1px solid #ddd;">IoU</th>
+        <th style="padding: 8px; border: 1px solid #ddd;">Dice</th>
+        <th style="padding: 8px; border: 1px solid #ddd;">Accuracy</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>U-NET</td>
-        <td>0.1767</td>
-        <td>0.7042</td>
-        <td>0.8233</td>
-        <td>0.9480</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">U-NET</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.1767</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.7042</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.8233</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.9480</td>
+      </tr>
+      <tr style="background-color: #f9f9f9;">
+        <td style="padding: 8px; border: 1px solid #ddd;">ResUNet</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.3358</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.6536</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.7868</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.9382</td>
       </tr>
       <tr>
-        <td>ResUNet</td>
-        <td>0.3358</td>
-        <td>0.6536</td>
-        <td>0.7868</td>
-        <td>0.9382</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">Attention UNet (5L)</td>
+        <td style="padding: 8px; border: 1px solid #ddd;"><b>0.1508</b></td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.7422</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.8492</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.9440</td>
       </tr>
-      <tr>
-        <td>Attention UNet (5L)</td>
-        <td>0.1508</td>
-        <td>0.7422</td>
-        <td>0.8492</td>
-        <td>0.9440</td>
-      </tr>
-      <tr>
-        <td>UNet++ w/ DS</td>
-        <td>0.2465</td>
-        <td>0.7624</td>
-        <td>0.8639</td>
-        <td>0.9489</td>
+      <tr style="background-color: #f9f9f9;">
+        <td style="padding: 8px; border: 1px solid #ddd;">UNet++ w/ DS</td>
+        <td style="padding: 8px; border: 1px solid #ddd;">0.2465</td>
+        <td style="padding: 8px; border: 1px solid #ddd;"><b>0.7624</b></td>
+        <td style="padding: 8px; border: 1px solid #ddd;"><b>0.8639</b></td>
+        <td style="padding: 8px; border: 1px solid #ddd;"><b>0.9489</b></td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
 

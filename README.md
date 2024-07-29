@@ -129,7 +129,7 @@ The images depict the original input (left), U-Net segmentation (middle), and UN
 
 ## Acknowledgments
 
-This project was completed as part of the Vision and Cognitive Systems course at UNIPD. I would like to extend my heartfelt gratitude to my colleague [@AntoniValls](https://github.com/AntonioValls), whose collaboration and contributions were invaluable throughout this project. Together, we worked diligently to explore and enhance the performance of U-Net based models for polyp segmentation.
+This project was completed as part of the Vision and Cognitive Systems course at UNIPD. I would like to extend my heartfelt gratitude to my colleague [@AntoniValls](https://github.com/AntoniValls), whose collaboration and contributions were invaluable throughout this project. Together, we worked diligently to explore and enhance the performance of U-Net based models for polyp segmentation.
 
 We are proud to share that our efforts and dedication have been recognized, as we achieved the highest grade for our project. This accomplishment reflects the depth of our research, the effectiveness of our methodologies, and the robustness of our results.
 
